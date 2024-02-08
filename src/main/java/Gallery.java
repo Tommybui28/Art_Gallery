@@ -20,4 +20,18 @@ public class Gallery {
         this.till = amount;
     }
 
+    public int stockCount(){
+        return this.stock.size();
+    }
+
+    public void addArtwork(Artwork artwork){
+        this.stock.add(artwork);
+
+    }
+    public void removeArtwork(Artwork artwork){
+        this.stock.remove(artwork);
+
+    }
+
+
 }
