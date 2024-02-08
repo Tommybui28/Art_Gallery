@@ -9,6 +9,10 @@ public class Artwork {
         this.price = price;
     }
 
+    public double getPrice() {
+        return this.price;
+    }
+
 
 
 }

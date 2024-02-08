@@ -11,5 +11,13 @@ public class Gallery {
         this.stock = new ArrayList<>();
 
     }
-    public
+
+    public double getTill() {
+        return till;
+    }
+
+    public void setTill(double amount) {
+        this.till = amount;
+    }
+
 }
